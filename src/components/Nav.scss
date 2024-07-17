@@ -1,0 +1,21 @@
+
+nav {
+    height: 2.5rem;
+    width: 100vw;
+    position: absolute;
+    bottom: 0.25rem;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+
+        li {
+
+            .navIcon {
+                max-width: 1.75rem;
+            }
+        }
+    }
+}

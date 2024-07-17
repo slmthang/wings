@@ -10,7 +10,7 @@ export default function Header({headerName = ''}) {
 
     return (
         <>
-            <div id="header" className='center'>
+            <div id="header">
                 <img src={IconImg} alt="icon image" id="icon" />
                 <h1 id="header-name">{headerName}</h1>
                 <button id="burg-menu-btn">
