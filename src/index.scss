@@ -1,0 +1,25 @@
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primaryColor: #A7D28B;
+    --primaryLightColor: #F6FBF3;
+    --secondaryColor: #DBFF00;
+    --textColor1a: rgba(0, 0, 0, 0.76);
+    --textColor1b: rgba(0, 0, 0, 0.56);
+    --textColor1a: rgba(220, 220, 220, 0.76);
+    --textColor1b: rgba(220, 220, 220, 0.56);
+    --borderColor: 0.1px solid rgba(0,0,0,0.1);
+    --boxShadowColor: rgba(50, 59, 140, 0.3);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

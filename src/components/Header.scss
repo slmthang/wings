@@ -1,0 +1,30 @@
+
+#header {
+    width: 100vw;
+    height: 2.5rem;
+    justify-content: space-between;
+    padding: 0.25rem;
+    position: absolute;
+    top: 0;
+
+    #icon {
+        margin-left: 0.75rem;
+        max-width: 2rem;
+    }
+
+    #header-name {
+        font-size: 0.9rem;
+        font-weight: normal;
+        color: var(--primaryColor);
+    }
+
+    #burg-menu-btn {
+        all: unset;
+        margin-right: 0.75rem;
+
+        > .fa {
+            font-size: 1.35rem;
+            color: var(--primaryColor);
+        }
+    }
+}
