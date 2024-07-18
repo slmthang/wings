@@ -18,9 +18,15 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
   const y = cy + radius * Math.sin(-midAngle * RADIAN);
 
   return (
+    <>
+      <text x={x + 50} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
+      {`${(percent * 100).toFixed(0)}%`}
+    </text>
     <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
       {`${(percent * 100).toFixed(0)}%`}
     </text>
+    </>
+    
   );
 };
 
@@ -35,7 +41,7 @@ export default function Login() {
             cx="50%"
             cy="50%"
             labelLine={false}
-            label
+            label={renderCustomizedLabel}
             outerRadius={80}
             fill="#8884d8"
             dataKey="value"
