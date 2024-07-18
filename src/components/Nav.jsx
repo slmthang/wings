@@ -1,13 +1,13 @@
 
 import { useState } from 'react';
-import homeIcon1 from '../assets/home1.svg';
-import homeIcon2 from '../assets/home2.svg';
-import plansIcon1 from '../assets/plans1.svg';
-import plansIcon2 from '../assets/plans2.svg';
-import subscriptionsIcon1 from '../assets/subscriptions1.svg';
-import subscriptionsIcon2 from '../assets/subscriptions2.svg';
-import statsIcon1 from '../assets/stats1.svg';
-import statsIcon2 from '../assets/stats2.svg';
+import homeIcon1 from '../assets/nav-icons/home1.svg';
+import homeIcon2 from '../assets/nav-icons/home2.svg';
+import plansIcon1 from '../assets/nav-icons/plans1.svg';
+import plansIcon2 from '../assets/nav-icons/plans2.svg';
+import subscriptionsIcon1 from '../assets/nav-icons/subscriptions1.svg';
+import subscriptionsIcon2 from '../assets/nav-icons/subscriptions2.svg';
+import statsIcon1 from '../assets/nav-icons/stats1.svg';
+import statsIcon2 from '../assets/nav-icons/stats2.svg';
 
 import './Nav.scss';
 
