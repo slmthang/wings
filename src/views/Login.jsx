@@ -1,6 +1,6 @@
 
 import React, { PureComponent } from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer } from 'recharts';
+import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 
 const data = [
   { name: 'Group A', value: 700 },
@@ -35,11 +35,11 @@ export default function Login() {
             cx="50%"
             cy="50%"
             labelLine={false}
-            label={renderCustomizedLabel}
+            label
             outerRadius={80}
             fill="#8884d8"
             dataKey="value"
-          >
+            >
             {data.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
