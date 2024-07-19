@@ -4,8 +4,17 @@
     width: 100%;
     height: 100%;
     font-size: 0.8rem;
+    background-color: lightblue;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #chart1 {
     background-color: beige;
+}
+
+#chart2 {
+    background-color:bisque;
 }
